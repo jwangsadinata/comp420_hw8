@@ -55,9 +55,19 @@ Before we start, you only have to modify `server.js` for all the main tasks. If 
 Task 0: Connecting to the database
 ---------------------------------------
 
-Once you have your application cloned, the first thing is to configure the database. To configure the database, you should set up an [mLab](https://mlab.com/) account, and choose an option to create a free 500MB sandbox storage. 
+Once you have your application cloned, the first thing is to configure the database. To configure the database, you should set up an [mLab](https://mlab.com/) account, and log in to your account.
 
-Then ...
+Once you are done, create a new MongoDB Deployment and set the plan to `sandbox`
+
+![example](https://github.com/jwangsadinata/comp420_hw8/blob/master/screenshots/mlab1.png)
+
+Once you’re done creating the deployment, head into it and create a database user and database password. **Remember the database user and database password** because you’re going to use it to connect the database you’ve just created.
+
+![example](https://github.com/jwangsadinata/comp420_hw8/blob/master/screenshots/mlab2.png)
+
+Finally, grab the MongoDB url and add it to your `MongoClient.connect` method (replace `dbaddr` below with the url that is shown. Make sure you use your database user and password!
+
+![example](https://github.com/jwangsadinata/comp420_hw8/blob/master/screenshots/mlab3.png)
 
 Replace line 13-15, which is the following:
 
@@ -180,12 +190,6 @@ Submission Instructions
 Your finished code should be uploaded back to GitHub.
 
 Another part of this submission is also to be able to host your code on Heroku. If you have not setup heroku, follow the instructions listed on [this](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction) website. Complete the Introduction and Set up stage.
-
-We need to make a file called `Procfile`, which is an instruction file for the server in Heroku. To do this, type the following:
-
-```
-echo "web: npm start" >> Procfile
-```
 
 Once you are done, if you clone it using the instructions above (`git clone`), then you can do the following command.
 
