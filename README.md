@@ -190,7 +190,7 @@ Again, delete as the name implies allows us to delete an entry in our database. 
 **What you will do**: Most TODO list will also allow you to change the name of the todo item you put in the database. Your task is to implement this feature.
 
 Submission Instructions
------------------------
+=======================
 Your finished code should be uploaded back to GitHub.
 
 Another part of this submission is also to be able to host your code on Heroku. If you have not setup heroku, follow the instructions listed on [this](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction) website. Complete the Introduction and Set up stage.
