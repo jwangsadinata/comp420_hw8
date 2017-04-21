@@ -10,7 +10,7 @@
     <% for(var i = 0; i < items.length; i++) {%>
       <div class='item'>
         <input type='checkbox'
-        data-name=<%=items[i].name%> data-done=<%=items[i].done%>
+        data-name="<%=items[i].name%>" data-done="<%=items[i].done%>"
         <% if (items[i].done) {%> checked <% } %>>
         <p><%=items[i].name%></p>
         <p class="delete-button" data-name=<%=items[i].name%>>&#10006;</p>
