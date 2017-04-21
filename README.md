@@ -6,6 +6,10 @@ In this assignment you will be continuing a relatively simple and familiar to-do
 
 This assignment will also require you to get familiar with uploading your code to Heroku. Once you are done with the main part, you should set up an app to host your files on Heroku. Your submission will be the link in which your website is hosted.
 
+We have provided you with a starter code, so you only have to modify few parts of the code. It is important that you clone the repository using Git, because it will be easier later on to set up for heroku.
+
+We also give an example of a finished project at [this](https://gentle-hollows-95095.herokuapp.com/) link. Feel free to check it out and play around with it, before you start with the assignment.
+
 Prerequisites
 -------------
 You will need to be comfortable with the following concepts and skills:
